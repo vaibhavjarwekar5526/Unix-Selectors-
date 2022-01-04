@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Unix (Selectors)</title>
+        <style>
+            .top_box{
+                background-color: #e3dadb;
+                width: 400px;
+                margin: auto;
+                text-align: center;
+                padding: 20px 0 6px;
+            }
+            img{
+                width: 100px;
+            }
+            #blue{
+                color: #211f87;
+                margin-top: 10px;
+            }
+            .float{
+                float: left;
+            }
+            .clear{
+                clear: both;
+            }
+            .margin{
+                margin-left: 20px;
+            }
+            .mid_box{
+                width: 630px;
+                margin: 50px auto 40px;
+            }
+            p{
+                font-size: 17px;
+            }
+            #red{
+                color: red;
+                margin-top: 0;
+            
+            }
+            .bottom_box{
+                background-color: #d35500;
+                width: 930px;
+                margin: auto;
+                height: 140px;
+            }
+            .partition{
+                background-color: black;
+                height: 100px;
+                width: 7px;
+                margin-top: 20px;
+            }
+            .width{
+                width: 400px;
+                margin-right: 30px;
+                margin-left: 30px;
+                
+            }
+            .text_align{
+                text-align: right;
+            }
+            #margin_top{
+                margin-top: 42px;
+            }
+            .white{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="top_box">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/linus.jpg"/>
+                <h1 id="blue">Linus Torvalds</h1>
+                <h2>The creator of Linux & Git</h2>
+            </div>
+            <div class="mid_box">
+                <div class="float">
+                    <img src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg"/>
+                </div>
+                <div class="float margin"> 
+                    <h1  id="red">Sal Khan</h1>
+                    <p>Salman Khan is the founder of the Khan Academy which has a mission<br/>
+                        of providing a free world-class education for anyone, anywhere.
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="bottom_box">
+                <div class="float width">
+                    <h2 class="white">Ken Thompson</h2>
+                    <p>Designed and Implemented the<br/>
+                    original Unix operating system</p>
+                </div>
+                <div class="partition float"></div>
+                <div class="float text_align width">
+                    <h2 class="white">Dennis Ritchie</h2>
+                    <p id="margin_top">A creator of C Programming Language</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
